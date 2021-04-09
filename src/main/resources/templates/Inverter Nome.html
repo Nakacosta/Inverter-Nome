@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inverter Nome</title>
+</head>
+<body>
+    <h1>Inverter Nome</h1>
+    <p>Digite seu nome</p>
+    <form action="/enviar" method="post" th:object="${formulario}">
+        <input type="text"/>
+        <input type="button" value="Enviar"/>
+    </form>
+</body>
+</html>
